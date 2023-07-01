@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.979);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  cursor: default;
+  overflow: hidden;
+}
+main > .head {
+  width: 100%;
+  min-height: 140vh;
+}
+main > .head > header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+main > .head > header > .logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.8rem;
+  font-family: "Roboto", sans-serif;
+}
+main > .head > header > nav {
+  width: 80%;
+}
+main > .head > header > nav > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+main > .head > header > nav > ul > li {
+  list-style: none;
+  display: flex;
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 30px;
+  transition: 0.6s;
+  font-family: "Roboto", sans-serif;
+}
+main > .head > header > nav > ul > li > .header {
+  font-size: 2.3rem;
+}
+main > .head > header > nav > ul > li:hover {
+  color: #a09b9b;
+}
+main > .head > .main-head {
+  width: 100%;
+  min-height: 70vh;
+  padding: 0 30px;
+  margin-top: 100px;
+  display: flex;
+}
+main > .head > .main-head > .left-main {
+  width: 30%;
+  min-height: 70vh;
+  margin-top: 4%;
+}
+main > .head > .main-head > .left-main > * {
+  color: rgba(255, 255, 255, 0.884);
+}
+main > .head > .main-head > .left-main > h1 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+main > .head > .main-head > .left-main > p {
+  margin-top: 4%;
+  font-family: "Roboto", sans-serif;
+}
+main > .head > .main-head > .left-main > div {
+  margin-top: 10%;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+}
+main > .head > .main-head > .left-main > div > span {
+  padding-left: 20px;
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+}
+main > .head > .main-head > .right-head {
+  width: 70%;
+  height: 50%;
+}
+main > .head > .main-head > .right-head > video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+main .story-part2 {
+  width: 100%;
+  min-height: 120vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .story-part2 h2 {
+  width: 60%;
+  height: 170px;
+  margin: 0 auto;
+  font-size: 4.2rem;
+  text-align: center;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.932);
+  font-family: "Roboto", sans-serif;
+}
+main .story-part2 > figure {
+  width: 95%;
+  height: 100vh;
+  margin: 0 auto;
+}
+main .story-part2 > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+main .grid-part3 {
+  width: 100%;
+  min-height: 70vh;
+  display: grid;
+  grid-template-columns: repeat(2, 550px);
+  grid-template-rows: repeat(2, 170px);
+  justify-content: center;
+  gap: 0 30px;
+  margin-top: 100px;
+}
+main .grid-part3 > div:nth-of-type(1) {
+  grid-row: 1/span 1;
+  grid-column: 1/span 1;
+}
+main .grid-part3 > div:nth-of-type(1) > h2 {
+  font-size: 2.3rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+main .grid-part3 > div:nth-of-type(2) {
+  grid-row: 1/span 1;
+  grid-column: 2/span 1;
+}
+main .grid-part3 > div:nth-of-type(3) {
+  grid-row: 2/span 1;
+  grid-column: 1/span 1;
+}
+main .grid-part3 > div:nth-of-type(3) > p {
+  color: white;
+  font-size: 1.3rem;
+}
+main .grid-part3 > div:nth-of-type(4) {
+  grid-row: 2/span 1;
+  grid-column: 2/span 1;
+}
+main .grid-part3 > div:nth-of-type(4) > p {
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+}
+main .gallery4-part4 {
+  width: 100%;
+  min-height: 150vh;
+  padding: 50px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .gallery4-part4 > .top-gallery {
+  width: 1005;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+main .gallery4-part4 > .top-gallery > * {
+  color: white;
+  width: 40%;
+  font-family: "Roboto", sans-serif;
+}
+main .gallery4-part4 > .top-gallery .left {
+  font-size: 5rem;
+}
+main .gallery4-part4 > .top-gallery .right {
+  font-size: 1.5rem;
+}
+main .gallery4-part4 .bottom-gallery {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+main .gallery4-part4 .bottom-gallery > figure {
+  width: 320px;
+  height: 370px;
+  display: flex;
+  margin: 0 15px;
+  position: relative;
+}
+main .gallery4-part4 .bottom-gallery > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  transition: all 1s linear;
+}
+main .gallery4-part4 .bottom-gallery > figure > img:hover {
+  filter: grayscale(2);
+}
+main .gallery4-part4 .bottom-gallery > figure > figcaption {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  bottom: -16px;
+  left: 10px;
+}
+main .gallery4-part4 .bottom-gallery > figure > figcaption > h2 {
+  font-size: 50px;
+  color: white;
+  transition: 0.4s;
+  font-family: "Roboto", sans-serif;
+}
+main .gallery4-part4 .bottom-gallery > figure > figcaption > h2:hover {
+  text-shadow: 3px 3px 5px rgb(68, 68, 68);
+}
+main .gallery4-part4 .bottom-gallery > figure > figcaption h3 {
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+main .goals-part5 {
+  width: 100%;
+  min-height: 140vh;
+  display: flex;
+}
+main .goals-part5 > .goals-left {
+  width: 30%;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  margin: 18% 2%;
+}
+main .goals-part5 > .goals-left > h2 {
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+}
+main .goals-part5 > .goals-left > p {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+}
+main .goals-part5 > .goals-left > div {
+  margin-top: 4%;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+}
+main .goals-part5 > .goals-left > div > span {
+  padding-left: 20px;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+main .goals-part5 > .goals-right {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .goals-part5 > .goals-right > div {
+  width: 380px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #1b1b1b;
+}
+main .goals-part5 > .goals-right > div > * {
+  width: 100%;
+  color: white;
+  padding: 15px 30px;
+  font-family: "Roboto", sans-serif;
+}
+main .goals-part5 > .goals-right > div > span {
+  font-size: 4rem;
+  margin-top: 50px;
+}
+main .goals-part5 > .goals-right > div > h3 {
+  font-size: 2.7rem;
+}
+main .goals-part5 > .goals-right > div > p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+main .goals-part5 > .goals-right > div:nth-of-type(1) {
+  margin-top: -7%;
+}
+main .goals-part5 > .goals-right > div:nth-of-type(3) {
+  margin-top: -7%;
+}
+main .quality-part6 {
+  width: 100%;
+  min-height: 130vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+main .quality-part6 > h2 {
+  width: 80%;
+  font-size: 4.5rem;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+main .quality-part6 > .video {
+  margin: 20px auto;
+  border-radius: 20px;
+  position: relative;
+  z-index: 999;
+  color: white;
+}
+main .quality-part6 > .video > div {
+  width: 50%;
+  height: 150px;
+  position: absolute;
+  text-align: center;
+  margin-top: -400px;
+  margin-left: 300px;
+  font-family: "Roboto", sans-serif;
+}
+main .quality-part6 > .video > div > h2 {
+  font-size: 4.5rem;
+}
+main .quality-part6 > .video > div > p {
+  font-size: 1.3rem;
+  margin-top: 30px;
+}
+main .quality-part6 > .video > div > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+main .quality-part6 > .video > div > ul > li {
+  list-style-type: none;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #a09b9b;
+  transition: 0.5s;
+}
+main .quality-part6 > .video > div > ul > li:hover {
+  color: #d4d1d1;
+}
+main .quality-part6 > .video > div > ul > li:nth-of-type(1) {
+  color: white;
+}
+main .clients-part7 {
+  width: 100%;
+  min-height: 70vh;
+}
+main .clients-part7 .clients-top {
+  width: 60%;
+  height: 200px;
+  margin: 150px auto;
+}
+main .clients-part7 .clients-top > * {
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+main .clients-part7 .clients-top > h2 {
+  font-size: 4.5rem;
+}
+main .clients-part7 .clients-top > p {
+  font-size: 1.3rem;
+  margin-top: 30px;
+}
+main .clients-part7 .clients-bottom {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -100px;
+}
+main .clients-part7 .clients-bottom > div {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 20px;
+}
+main .clients-part7 .clients-bottom > div > video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  opacity: 0.4;
+}
+main .clients-part7 .clients-bottom > div > video::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #383636;
+}
+main .clients-part7 .clients-bottom > div > video:hover {
+  opacity: 1;
+}
+main .clients-part7 .clients-bottom > div > h2 {
+  color: wheat;
+  margin-top: -120px;
+  font-size: 2rem;
+  z-index: 1;
+  font-family: "Roboto", sans-serif;
+}
+main .footer {
+  width: 100%;
+  min-height: 450px;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .footer > .start-foot {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+main .footer > .start-foot > div {
+  width: 300px;
+  height: 250px;
+  margin: 40px auto;
+}
+main .footer > .start-foot > div:nth-of-type(4) {
+  margin-top: 60px;
+}
+main .footer > .start-foot > div > h2 {
+  font-size: 4rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+main .footer > .start-foot > div > ul {
+  width: 100%;
+  height: 100%;
+}
+main .footer > .start-foot > div > ul > li {
+  width: 100%;
+  height: 20px;
+  list-style: none;
+  margin-top: 10px;
+}
+main .footer > .start-foot > div > ul > li > a {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  padding-left: 40px;
+  text-decoration: none;
+  transition: 0.6s;
+  font-family: "Roboto", sans-serif;
+}
+main .footer > .start-foot > div > ul > li > a:hover {
+  color: rgb(63, 63, 62);
+}
+main .footer .end-foot {
+  width: 100%;
+  height: 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .footer .end-foot > p {
+  font-size: 25px;
+  color: #666561;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=master.css.map */
